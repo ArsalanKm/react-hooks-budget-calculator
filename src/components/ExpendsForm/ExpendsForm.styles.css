@@ -1,0 +1,21 @@
+
+.form-center {
+    display: flex;
+    padding: 0 1rem;
+  }
+  .form-group {
+    padding: 1rem 0.75rem;
+    flex: 0 0 50%;
+  }
+  .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--mainGrey);
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+  }

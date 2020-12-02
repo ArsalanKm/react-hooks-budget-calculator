@@ -1,6 +1,7 @@
 import React from "react";
 import ExpendsItem from "../ExpendsItem/ExpendsItem";
 import { MdDelete } from "react-icons/md";
+import "./ExpendsList.styles.css";
 const ExpendsList = ({ expenses, handleClear, handleDelete, handleEdit }) => {
   const renderdItems = expenses.map((item) => {
     return (

@@ -1,0 +1,16 @@
+.alert {
+  padding: 0.75rem 1.25rem;
+  color: var(--mainWhite);
+  text-align: center;
+  text-transform: capitalize;
+  width: 90%;
+  margin: 2rem auto 0 auto;
+  border-radius: 2px;
+  text-transform: capitalize;
+}
+.alert-danger {
+  background: var(--mainRed);
+}
+.alert-success {
+  background: var(--mainGreen);
+}

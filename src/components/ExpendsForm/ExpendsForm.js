@@ -1,5 +1,6 @@
 import React from "react";
 import { MdSend } from "react-icons/md";
+import './ExpendsForm.styles.css'
 const ExpendsForm = ({
   charge,
   amount,

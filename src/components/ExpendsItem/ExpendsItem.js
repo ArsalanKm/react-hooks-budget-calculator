@@ -1,5 +1,6 @@
 import React from "react";
 import { MdEdit, MdDelete } from "react-icons/md";
+import './ExpendItem.css'
 const ExpendsItem = ({
   item: { charge, amount, id },
   handleDelete,
